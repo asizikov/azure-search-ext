@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <PackageId>Xcc.Azure.Search.Extensions.Client</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Anton Sizikov</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Azure.Search" Version="10.1.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.7" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.7" />
+    </ItemGroup>
+</Project>
